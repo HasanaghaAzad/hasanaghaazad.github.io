@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "Hasanagha Azad"
 ---
 
-I'm glad you are here. I plan to talk about ...
+its my first experience with GitHub Pages ...
