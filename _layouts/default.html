@@ -42,6 +42,35 @@ i.bi.bi-circle-fill,i.bi.bi-circle {
     margin-right: 0.2rem;
     vertical-align: 0.2rem;
 }
+      
+      @page {
+  size: A4;
+  margin: 0;
+}
+ 
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+         body{padding:0;}
+  .container{
+    margin:0;
+    box-shadow:none !important;
+    width:100%;
+  }
+  aside {
+    flex: 0 0 auto;
+    width: 33.33333333% !important;
+}
+  section {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+}
+
+
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
