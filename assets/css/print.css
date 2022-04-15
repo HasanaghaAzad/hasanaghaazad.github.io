@@ -1,0 +1,44 @@
+ @page {
+  size: A4;
+  margin: 0;
+}
+ 
+
+@media print {
+  html, body {
+    width: 100% !important;
+    height: 297mm;
+  }
+  
+         body{padding:0;margin:0 !important}
+  .container{
+    margin:0;
+    box-shadow:none !important;
+    width:100%;
+    display: block !important;
+    padding:0;
+    position: relative;
+    right: -15px;
+    max-width: 100%;
+  }
+  aside {
+    flex: 0 0 auto;
+      float:left;
+    width: 33.33333333%% !important;
+}
+  aside .list-group-flush>.list-group-item{
+    padding-left:0;
+  }
+  section {
+    flex: 0 0 auto;
+    width: 66.66666667% !important;
+      float:left;
+}
+    .container > .row{
+        display:flex;
+    }
+.row {
+    --bs-gutter-x: 1.8rem;}
+}body {
+  -webkit-print-color-adjust: exact !important;
+}
