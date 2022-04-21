@@ -2,4 +2,4 @@
 title: "Hasanagha Azad"
 ---
 
-its my first experience with GitHub Pages 
+The official full name is Hasanaga Aliyev Azadbay oglu. I am Senior Full Stack Web Developer, Manager, Tech blogger and Mentor.
