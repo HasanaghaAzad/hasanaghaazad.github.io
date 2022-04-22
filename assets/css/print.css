@@ -42,8 +42,11 @@
         page-break-before: always;
 
     }
-
-    .card.border-0.p-0.mb-5.mt-4 {
+section.certificates.col-md-12.print-as-pages.container {
+    right: 0;
+    position: static;
+}
+    .col-xl-8.col-md-12.p-5 .card.border-0.p-0.mb-5.mt-4 {
         width: 90%;
         margin-bottom: 10px !important;
         margin-top: 10px !important;
@@ -71,7 +74,7 @@
     }
 
     .certificates .row {
-        --bs-gutter-x: 1.5rem;
+        /* --bs-gutter-x: 1.5rem; */
     }
 
     .container {
@@ -81,7 +84,7 @@
         display: block !important;
         padding: 0;
         position: relative;
-        right: -15px;
+        /* right: -15px; */
         max-width: 100%;
     }
 
@@ -109,7 +112,7 @@
     }
 
     .row {
-        --bs-gutter-x: 2rem;
+        /* --bs-gutter-x: 2rem; */
     }
 
     .row.d-print-flex {
@@ -120,4 +123,9 @@
     body {
         -webkit-print-color-adjust: exact !important;
     }
+    
+    .certificates .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
 }
