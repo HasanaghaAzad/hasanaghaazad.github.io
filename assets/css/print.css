@@ -109,10 +109,6 @@ list-group-item.print-as-pages{
         display: flex;
     }
 
-    .row {
-        /* --bs-gutter-x: 2rem; */
-    }
-
     .row.d-print-flex {
         display: flex;
     }
