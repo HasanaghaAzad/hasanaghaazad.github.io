@@ -4,7 +4,9 @@
 }
 
 @media print {
-
+    img.card-img-top {
+        max-width: 100%;
+    }
     html,
     body {
         width: 100% !important;
