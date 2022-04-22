@@ -130,6 +130,6 @@ section.certificates.col-md-12.print-as-pages.container {
     width: 33.33333333%;
 }
 .ppt-10 {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
     }
 }
