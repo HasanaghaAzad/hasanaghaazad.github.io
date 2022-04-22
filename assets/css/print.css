@@ -1,8 +1,8 @@
-@page {
+/*@page {
     size: A4;
     margin: 0;
 }
-
+*/
 @media print {
     img.card-img-top {
         max-width: 100%;
@@ -28,7 +28,7 @@
      
 
     .col-xl-12.col-md-6.col-lg-4:nth-child(10) li:nth-child(3) {
-        margin-top: 6rem;
+        /* margin-top: 6rem; */
     }
 
     
@@ -52,7 +52,7 @@ section.certificates.col-md-12.print-as-pages.container {
         background: none !important;
         border-color: transparent;
         padding: 10vh;
-        margin-top: 2.5rem;
+        display: none;margin-top: 2.5rem;
     }
 
     .mx-auto img.card-img-top {
@@ -67,8 +67,9 @@ section.certificates.col-md-12.print-as-pages.container {
 
     .print-as-pages {
         page-break-before: always;
-    }
-
+    padding-top: 2rem;}
+list-group-item.print-as-pages{
+    padding-top: 4rem;}
     .print-after {
         page-break-after: always;
     }
@@ -88,8 +89,8 @@ section.certificates.col-md-12.print-as-pages.container {
     aside.col-xl-4 {
         flex: 0 0 auto;
 
-        width: 36.8% !important;
-        padding-bottom: 28.4rem !important;
+        width: 40% !important;
+        /* padding-bottom: 28.4rem !important; */
     }
 
     aside .list-group-flush>.list-group-item {
@@ -98,7 +99,7 @@ section.certificates.col-md-12.print-as-pages.container {
 
     section.p-5 {
         flex: 0 0 auto;
-        width: 63.2% !important;
+        width: 60% !important;
         border-color: transparent;
         padding-left: 2rem !important;
         padding-right: 4rem !important;
@@ -128,4 +129,5 @@ section.certificates.col-md-12.print-as-pages.container {
 .ppt-10 {
     padding-top: 10rem !important;
     }
+    section.col-xl-8.col-md-12.p-5.print-after:last-child {margin-bottom: 13.6rem;}
 }
