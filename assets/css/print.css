@@ -69,8 +69,8 @@ section.certificates.col-md-12.print-as-pages.container {
         page-break-before: always;
     }
 
-    .print-as-pages- {
-        page-break-before: always;
+    .print-after {
+        page-break-after: always;
     }
 
     
