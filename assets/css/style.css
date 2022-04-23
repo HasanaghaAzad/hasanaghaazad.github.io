@@ -580,7 +580,7 @@ footer {
         width: 33%
     }
 }
-
+a.badge.bg-black:hover {background-color: #fff !important;color: #212529 !important;}
 @media print {
     body {
         padding: 0.4in;
