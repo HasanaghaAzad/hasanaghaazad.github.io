@@ -2,6 +2,7 @@
     img.card-img-top {
         max-width: 100%;
     }
+
     html,
     body {
         width: 100% !important;
@@ -20,19 +21,17 @@
         margin-top: 6rem;
     }
 
-     
-
-    
-
     h2.mt-5.h4.text-info.b.bold.bolder.text-bold.strong:nth-child(14) {
         margin-top: 15rem;
         page-break-before: always;
 
     }
-section.certificates.col-md-12.print-as-pages.container {
-    right: 0;
-    position: static;
-}
+
+    section.certificates.col-md-12.print-as-pages.container {
+        right: 0;
+        position: static;
+    }
+
     .col-xl-8.col-md-12.p-5 .card.border-0.p-0.mb-5.mt-4 {
         width: 90%;
         margin-bottom: 10px !important;
@@ -43,7 +42,8 @@ section.certificates.col-md-12.print-as-pages.container {
         background: none !important;
         border-color: transparent;
         padding: 10vh;
-        display: none;margin-top: 2.5rem;
+        display: none;
+        margin-top: 2.5rem;
     }
 
     .mx-auto img.card-img-top {
@@ -58,14 +58,18 @@ section.certificates.col-md-12.print-as-pages.container {
 
     .print-as-pages {
         page-break-before: always;
-    padding-top: 2rem;}
-list-group-item.print-as-pages{
-    padding-top: 4rem;}
+        padding-top: 2rem;
+    }
+
+    list-group-item.print-as-pages {
+        padding-top: 4rem;
+    }
+
     .print-after {
         page-break-after: always;
     }
 
-    
+
     .container {
         margin: 0 !important;
         box-shadow: none !important;
@@ -106,13 +110,17 @@ list-group-item.print-as-pages{
     body {
         -webkit-print-color-adjust: exact !important;
     }
-    
+
     .certificates .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-}
-.ppt-10 {
-    padding-top: 10rem !important;
+        flex: 0 0 auto;
+        width: 33.33333333%;
     }
-    section.col-xl-8.col-md-12.p-5.print-after:last-child {margin-bottom: 18.0rem;}
+
+    .ppt-10 {
+        padding-top: 10rem !important;
+    }
+
+    section.col-xl-8.col-md-12.p-5.print-after:last-child {
+        margin-bottom: 18.0rem;
+    }
 }
