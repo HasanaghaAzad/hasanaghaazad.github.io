@@ -16,11 +16,11 @@
        <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i> Python</li>
        <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> React</li>
        <li class="list-group-item bg-transparent text-light border-0">
-              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Node.js</li>
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Node.js <a href="https://github.com/HasanaghaAzad/CardGame" target="_blank" class="position-absolute top-50  start-100 translate-middle badge rounded-pill bg-black">proof</a></li>
        <li class="list-group-item bg-transparent text-light border-0">
-              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Express
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Express <a href="https://github.com/HasanaghaAzad/CardGame" target="_blank" class="position-absolute top-50  start-100 translate-middle badge rounded-pill bg-black">proof</a>
        </li>
        <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Jasmine</li>
-       <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> MongoDB</li>
+       <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> MongoDB <a href="https://github.com/HasanaghaAzad/CardGame" target="_blank" class="position-absolute top-50  start-100 translate-middle badge rounded-pill bg-black">proof</a></li>
        <li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i><i class="bi bi-circle"></i> Redis</li>
 </ul>
