@@ -115,7 +115,10 @@
         flex: 0 0 auto;
         width: 33.33333333%;
     }
-
+    .certificates .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
     .ppt-10 {
         padding-top: 10rem !important;
     }
