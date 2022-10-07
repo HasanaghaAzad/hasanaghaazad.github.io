@@ -23,11 +23,6 @@
         margin-top: 6rem;
     }
 
-    h2.mt-5.h4.text-info.b.bold.bolder.text-bold.strong:nth-child(14) {
-        margin-top: 15rem;
-        page-break-before: always;
-
-    }
 
     section.certificates.col-md-12.print-as-pages.container {
         right: 0;
