@@ -11,7 +11,8 @@
         min-height: 100%;
         float: left;
         width: 100%;
-        print-color-adjust: exact !important;
+		print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
     }
 
     .mt-lg-5 {
