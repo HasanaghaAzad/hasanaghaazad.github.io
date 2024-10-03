@@ -1,10 +1,194 @@
---- layout: default --- <div class="home"> {%- if page.title -%} <h1 class="page-heading">{{ page.title }}</h1> {%-
-  endif -%} ---{{ content }}--- {% if site.paginate %} {% assign posts = paginator.posts %} {% else %} {% assign posts =
-  site.posts %} {% endif %} {%- if posts.size > 0 -%} {%- if page.list_title -%} <h2 class="post-list-heading">{{
-    page.list_title }}</h2> {%- endif -%} <ul class="post-list"> {%- assign date_format = site.minima.date_format |
-    default: "%b %-d, %Y" -%} {%- for post in posts -%} <li>
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a>
-      </h3> {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-    </li> {%- endfor -%} </ul> {%- endif -%} </div>
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> {% seo %}
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+				integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="/assets/css/print.css" media="print"> {% include infilecss.html %} <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]--> {% include head-custom.html %}
+</head>
+
+<body
+			style="background-color: #7e7e7e;background-image:radial-gradient(#bfbfbf 0.5px, transparent 0.5px), radial-gradient(#bfbfbf 0.5px, #7e7e7e 0.5px);background-size: 20px 20px;background-position: 0 0,10px 10px;">
+	<div class="container bg-white col-12  col-lg-12 col-xl-10 col-md-12 shadow mb-5 bg-body">
+		<div class="row d-print-flex print-after">
+			<aside class="col-xl-4 bg-primary p-5 col-md-12 flex">
+				<div class="row">
+					<div class="col-md-4 col-xl-12">
+						<div class="card mb-5 bg-transparent border-0 col-xl-12 mx-auto">
+							<img src="/assets/Hasanagha-Azad--profile-photo.jpeg"
+									 class="card-img-top rounded-circle border-0 w-100 mx-auto "
+									 alt="Hasanagha Azad Profile picture on CV resume">
+						</div>
+					</div>
+					<div class="col-md-8 d-xl-none d-print-none">
+						<h1 class="display-3 text-uppercase text-primary mt-5 mt-md-0 text-justify text-monospace text-light"
+								style="text-align: justify;">
+							<b>Hasanagha Aliyev</b>
+						</h1>
+						<span
+									class="badge bg-dark w-25 p-0 fs-0 border-bottom-0 bg-transparent border-0 border-top rounded-0 border-dark mb-5 mt-md-0 mb-md-0">&nbsp;</span>
+						<div class="home">
+							<h2 class="h4 text-info b bold bolder text-bold strong"><b>PERSONAL PROFILE</b></h2>
+							<p class="text-light mb-0">The official full name is Hasanaga Aliyev Azadbay oglu. I am Senior Full Stack
+								Web Developer, Tech blogger and Mentor.</p>
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body px-0">
+								<h5 class="card-title text-light">CONTACT ME AT</h5>
+							</div>
+							<ul class="list-group list-group-flush bg-transparent">
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-geo-alt-fill"></i>
+									Estonia, Tallinn</li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-envelope-fill"></i>
+									hasanaghaazad@gmail.com</li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-linkedin"></i> <a
+										 href="https://www.linkedin.com/in/hasanaga-azad/" class="text-light"
+										 target="blank">@hasanaga-azad</a></li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-github"></i> <a
+										 href="https://hasanaghaazad.github.io/" class="text-light"
+										 target="blank">hasanaghaazad.github.io</a></li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-github"></i> <a
+										 href="https://github.com/HasanaghaAzad/" class="text-light" target="blank">HasanaghaAzad</a></li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-facebook"></i> <a
+										 href="https://www.facebook.com/hasanaga.azad" class="text-light" target="blank">@hasanaga.azad</a>
+								</li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-phone"></i> +372 5897
+									4003</li>
+								<li class="list-group-item bg-transparent text-light border-0"><i class="bi bi-upwork"></i> <a
+										 href="https://www.upwork.com/freelancers/~01d5e24b94193ccca2" class="text-light"
+										 target="blank">upwork.com/freelancers/~01d5e24b94193ccca2</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body    px-0">
+								<h5 class="card-title text-light">SKILLS SUMMARY</h5>
+							</div> {% include skills.html %}
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body px-0">
+								<h5 class="card-title text-light">LANGUAGES</h5>
+							</div>
+							<ul class="list-group list-group-flush bg-transparent">
+								<li class="list-group-item bg-transparent text-light border-0">English - Excellent</li>
+								<li class="list-group-item bg-transparent text-light border-0">Azerbaijani - Native</li>
+								<li class="list-group-item bg-transparent text-light border-0">Russian - Native</li>
+								<li class="list-group-item bg-transparent text-light border-0">Turkish - Native</li>
+								<li class="list-group-item bg-transparent text-light border-0">Ukrainian - Elementary </li>
+								<li class="list-group-item bg-transparent text-light border-0">Estonian - Beginner </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body px-0">
+								<h5 class="card-title text-light">CLOUD PLATFORMS</h5>
+							</div>
+							<ul class="list-group list-group-flush bg-transparent">
+								<li class="list-group-item bg-transparent text-light border-0">Google Cloud Platform </li>
+								<li class="list-group-item bg-transparent text-light border-0">Azure</li>
+								<li class="list-group-item bg-transparent text-light border-0">Amazon AWS</li>
+								<li class="list-group-item bg-transparent text-light border-0">DigitalOcean</li>
+								<li class="list-group-item bg-transparent text-light border-0">Cloudflare</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body px-0">
+								<h5 class="card-title text-light">CMS &amp; SAAS SKILLS</h5>
+							</div> {% include skills-saas-cms.html %}
+						</div>
+					</div>
+					<div class="col-xl-12 col-md-6 col-lg-4">
+						<div class="card text-light bg-transparent  border-0 w-100 mx-auto mt-lg-5 mt-md-4 col-md-3">
+							<div class="card-body px-0">
+								<h5 class="card-title text-light">OTHER TECHNICAL SKILLS</h5>
+							</div>
+							<ul class="list-group list-group-flush bg-transparent">
+								<li class="list-group-item bg-transparent text-light border-0">GitHub</li>
+								<li class="list-group-item bg-transparent text-light border-0">GitHub Pages</li>
+								<li class="list-group-item bg-transparent text-light border-0">Docker</li>
+								<li class="list-group-item bg-transparent text-light border-0">VPS VPN</li>
+								<li class="list-group-item bg-transparent text-light border-0">Centos Web Panel</li>
+								<li class="list-group-item bg-transparent text-light border-0">ISP manager</li>
+								<li class="list-group-item bg-transparent text-light border-0">Cpanel</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row d-print-flex  mt-md-4">
+					<div class="card-body px-0">
+						<h5 class="card-title text-light">CERTIFICATES</h5>
+					</div>
+					<div class="col-md-12">
+						<div class="card border-0 p-0 mb-3 mt-4">
+							<a href="https://www.linkedin.com/learning/certificates/0997f11476fd27cbfb4ed5c49667f187318c929370e47a3ff71ccdd7e207a098"
+								 target="_blank">
+								<img src="/certificates/NodejsLearning-1000.jpeg" class="card-img-top"
+										 alt="Linkedin Node.js Learning Training Certificate of Hasanagha Azad">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="card border-0 p-0 mb-3 mt-4">
+							<a href="https://www.linkedin.com/learning/certificates/c1970a647c5eab90bb0c56d6cb8396854ac2294c0fb30150c85e90ffd8fb8c26"
+								 target="_blank">
+								<img src="/certificates/RESTAPILearning-1000.jpeg" class="card-img-top"
+										 alt="Linkedin REST API Learning Training Certificate of Hasanagha Azad">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="card border-0 p-0 mb-3 mt-4">
+							<a href="https://www.linkedin.com/learning/certificates/89ea5162cee5209f15625118a6f5003da0f23dbc4e164e1a6829b09898ab6510"
+								 target="_blank">
+								<img src="/certificates/JavaScriptEssential-1000.jpeg" class="card-img-top"
+										 alt="Linkedin JavaScript Essential Training Certificate of Hasanagha Azad">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="card border-0 p-0 mb-3 mt-4">
+							<a href="https://www.linkedin.com/learning/paths/become-a-web-developer" target="_blank">
+								<img src="/certificates/Become-Web-Developer.jpeg" class="card-img-top"
+										 alt="Linkedin Become Web Developer Learning Training Certificate of Hasanagha Azad">
+							</a>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<section class="col-xl-8 col-md-12 p-5 print-after">
+				<div class="d-none d-xl-block d-print-block">
+					<h1 class="display-3 text-uppercase text-primary mt-5 text-justify text-monospace"
+							style="text-align: justify;"><b>Hasanagha Azad</b>
+					</h1><span
+								class="badge bg-dark w-25 p-0 fs-0 border-bottom-0 bg-transparent border-0 border-top rounded-0 border-dark mb-5">&nbsp;</span>
+					<div class="home mb-5">
+						<h2 class="h4 text-info b bold bolder text-bold strong"><b>PERSONAL PROFILE</b></h2>
+						<p>The official full name is Hasanaga Aliyev Azadbay oglu. I am Senior Full Stack Web Developer, Tech
+							blogger and Mentor.</p>
+					</div>
+					<div class="p-1"></div>
+				</div>
+				<h2 class="mt-xl-5 mt-2 h4 text-info b bold bolder text-bold strong"><b>WORK EXPERIENCE</b></h2> {% include
+				experience-9.html %} {% include experience-8.html %} {% include experience-1.html %} {% include
+				experience-2.html %} {% include experience-3.html %} {% include experience-4.html %}
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
