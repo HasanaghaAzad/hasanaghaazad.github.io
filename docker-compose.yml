@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  my-jekyll-container:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #image: my-ruby-env:latest # This is image which built in step 2
+    container_name: local_jekyl3l
+    restart: always
+    tty: true
+    volumes:
+      - ./app:/app
+      - ./conf:/etc/nginx/conf.d # For nginx setting
+    ports:
+      - "801:80"
+    command: >
+      sh -c  "service nginx start &&  bundle exec jekyll serve"
+networks:
+  my-network:
+    driver: bridge
