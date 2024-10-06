@@ -1,0 +1,40 @@
+aside h5.card-title {
+  padding: 0.8em 1.5em;
+  display: inline-block;
+  margin-right: auto;
+}
+
+.bg-c-3 {
+  background-color: #eff3ff;
+}
+
+.c-4 {
+  color: #3c3d40;
+}
+
+li.list-group-item.bg-transparent.text-light.border-0 p {
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.fullname {
+  color: gray;
+  width: 100%;
+  display: block;
+  letter-spacing: 0.0676em;
+}
+
+.hi-part {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  text-transform: none;
+  margin-left: 4px;
+  margin-bottom: -11px;
+  line-height: 16px;
+}
+
+.text-info {
+  color: #787a80 !important
+}

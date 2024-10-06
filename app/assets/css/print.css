@@ -5,14 +5,29 @@
 
     html,
     body {
+
         width: 100% !important;
         position: static;
-        height: 100%;
+
         min-height: 100%;
         float: left;
         width: 100%;
-		print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
         -webkit-print-color-adjust: exact !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+
+    }
+
+    .bg-body {
+        margin-bottom: 0px !important;
+        min-height: 100% !important;
+
+    }
+
+    body {
+
+        display: flex;
     }
 
     .mt-lg-5 {
@@ -77,9 +92,9 @@
         max-width: 100%;
     }
 
-    aside.col-xl-4 {
+    aside {
         flex: 0 0 auto;
-        width: 40% !important;
+        width: 35% !important;
     }
 
     aside .list-group-flush>.list-group-item {
@@ -88,10 +103,10 @@
 
     section.p-5 {
         flex: 0 0 auto;
-        width: 60% !important;
+        width: 65% !important;
         border-color: transparent;
-        padding-left: 2rem !important;
-        padding-right: 4rem !important;
+        padding-left: 2.5rem !important;
+        padding-right: 3.5rem !important;
     }
 
     .container>.row {
@@ -101,15 +116,44 @@
     .row.d-print-flex {
         display: flex;
     }
+
     .certificates .col-md-4 {
         flex: 0 0 auto;
         width: 33.33333333%;
     }
+
     .certificates .col-md-3 {
         flex: 0 0 auto;
         width: 25%;
     }
+
     .ppt-10 {
         padding-top: 10rem !important;
+    }
+
+    .prnt-px-3 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .prnt-px-4 {
+        padding-left: 2.1rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .prnt-mb-1 {
+        margin-bottom: .25rem !important;
+    }
+
+    .fullname {
+        font-size: calc(1.525rem + 2.2vw);
+        letter-spacing: 0.065em !important;
+    }
+
+    .hi-part {
+        margin-left: 2px !important;
+        font-size: 12px !important;
+        line-height: 13px !important;
+        margin-bottom: -6px !important;
     }
 }
