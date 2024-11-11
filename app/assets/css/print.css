@@ -1,16 +1,11 @@
 @media print {
-    img.card-img-top {
-        max-width: 100%;
-    }
-
     html,
     body {
-
         width: 100% !important;
         position: static;
-
         min-height: 100%;
         float: left;
+        display: flex;
         width: 100%;
         print-color-adjust: exact !important;
         -webkit-print-color-adjust: exact !important;
@@ -50,10 +45,6 @@
         padding: 10vh;
         display: none;
         margin-top: 2.5rem;
-    }
-
-    .mx-auto img.card-img-top {
-        width: 90% !important;
     }
 
     body {
