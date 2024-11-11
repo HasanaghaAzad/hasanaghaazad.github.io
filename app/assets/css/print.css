@@ -17,12 +17,6 @@
     .bg-body {
         margin-bottom: 0px !important;
         min-height: 100% !important;
-
-    }
-
-    body {
-
-        display: flex;
     }
 
     .mt-lg-5 {
@@ -102,10 +96,6 @@
         display: flex;
     }
 
-    .ppt-10 {
-        padding-top: 10rem !important;
-    }
-
     .prnt-px-3 {
         padding-right: 1rem !important;
         padding-left: 1rem !important;
@@ -113,7 +103,7 @@
 
     .prnt-px-4 {
         padding-left: 2.1rem !important;
-        padding-right: 1.95rem !important;
+        padding-right: 1.90rem !important;
     }
 
     .prnt-mb-1 {
