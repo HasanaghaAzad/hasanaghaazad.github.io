@@ -96,14 +96,9 @@
         display: flex;
     }
 
-    .prnt-px-3 {
-        padding-right: 1rem !important;
-        padding-left: 1rem !important;
-    }
-
     .prnt-px-4 {
-        padding-left: 2.1rem !important;
-        padding-right: 1.90rem !important;
+        padding-left: 2rem !important;
+        padding-right: 1.85rem !important;
     }
 
     .prnt-mb-1 {
